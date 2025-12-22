@@ -1,0 +1,82 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - DEV DONALD</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href=".//Favicon/android-chrome-192x192.png"  type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5LBTY8K76V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5LBTY8K76V');
+    </script>
+</head>
+<body>
+    <nav class="nav">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link active" href="./about.html">About</a>
+        <a class="nav-link" href="./article.html">Articles</a>
+        <a class="nav-link" href="./dashboard.html">Dashboard</a>
+    </nav>
+
+    <h1 class="header">ABOUT ME</h1>
+    <p class="hint"><i>Donald Obisanya</i></p>
+    <p>Software Engineer &amp; Web Developer</p>
+
+    <div class="container">
+        <p class="text">
+            <strong>Background</strong>
+        </p>
+        <div class="line"></div>
+        <p class="text2">
+            A passionate software engineer dedicated to building digital solutions that drive growth and innovation for ventures in emerging markets, particularly across Africa.
+        </p>
+    </div>
+
+    <div class="container2">
+        <p class="text">
+            <strong>Expertise</strong>
+        </p>
+        <div class="line"></div>
+        <p class="text2" style="font-size: 1.2rem;">
+            Web Development | Software Engineering | Digital Strategy | Technology Consulting
+        </p>
+    </div>
+
+    <div class="container" style="margin-top: 40px;">
+        <p class="text">
+            <strong>Approach</strong>
+        </p>
+        <div class="line"></div>
+        <p class="text2" style="font-size: 1.2rem;">
+            Combining technical expertise with strategic thinking to deliver technology solutions that create real value and lasting impact.
+        </p>
+    </div>
+
+    <br><br><br><br>
+
+    <section>
+        <footer>
+            <p>DONALD OBISANYA <span class="span">©</span>
+                <span id="launchYear">2024</span>
+                -
+                <span id="currentYear">2025</span>
+            </p>
+        </footer>
+        <p><a class="social" href="https://wa.me/2347010687110">Whatsapp</a></p>
+    </section>
+
+    <script>
+        var currentYear = document.getElementById('currentYear');
+        currentYear.innerHTML = new Date().getFullYear();
+        var startDate = new Date('20 Dec 2024');
+        var launch = new Date();
+        launch.setTime(startDate.getTime());
+        var launchYear = document.getElementById('launchYear');
+        launchYear.innerHTML = launch.getFullYear();
+    </script>
+
+
+</body></html>

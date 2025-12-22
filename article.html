@@ -1,0 +1,174 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - DEV DONALD</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon"  href=".//Favicon/android-chrome-192x192.png"  type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5LBTY8K76V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5LBTY8K76V');
+    </script>
+    <style>
+        .articles-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px 50px;
+        }
+        .article-card {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.15), rgba(0, 153, 204, 0.1));
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+        .article-card:hover {
+            transform: translateX(10px);
+            border-color: rgb(235, 140, 0);
+            box-shadow: 0 5px 25px rgba(235, 140, 0, 0.2);
+        }
+        .article-meta {
+            font-size: 0.85rem;
+            color: rgb(235, 140, 0);
+            margin-bottom: 10px;
+        }
+        .article-title {
+            font-size: 1.5rem;
+            margin: 0 0 15px 0;
+            color: #fff;
+        }
+        .article-excerpt {
+            font-size: 1rem;
+            line-height: 1.6;
+            opacity: 0.85;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .read-more {
+            display: inline-block;
+            color: rgb(235, 140, 0);
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .read-more:hover {
+            color: #fff;
+        }
+        .tag {
+            display: inline-block;
+            background: rgba(235, 140, 0, 0.2);
+            color: rgb(235, 140, 0);
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin-right: 8px;
+            margin-top: 10px;
+        }
+        .featured {
+            border-color: rgb(235, 140, 0);
+            background: linear-gradient(135deg, rgba(235, 140, 0, 0.15), rgba(235, 140, 0, 0.05));
+        }
+        .featured-badge {
+            display: inline-block;
+            background: rgb(235, 140, 0);
+            color: #000;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link active" href="./article.html">Articles</a>
+        <a class="nav-link" href="./dashboard.html">Dashboard</a>
+    </nav>
+
+    <h1 class="header">ARTICLES</h1>
+    <p class="hint"><i>Insights &amp; Thoughts</i></p>
+    <p>Exploring technology, innovation, and digital transformation in emerging markets</p>
+
+    <div class="articles-container">
+        <article class="article-card featured">
+            <span class="featured-badge">FEATURED</span>
+            <div class="article-meta">December 22, 2024 • 5 min read</div>
+            <h2 class="article-title">Building Scalable Web Solutions for African Startups</h2>
+            <p class="article-excerpt">
+                The African tech ecosystem is experiencing unprecedented growth. From Lagos to Nairobi, Johannesburg to Cairo, startups are emerging with innovative solutions to local challenges. However, building technology that scales requires careful consideration of unique infrastructure constraints, diverse user needs, and the balance between cutting-edge features and practical accessibility.
+            </p>
+            <p class="article-excerpt">
+                This article explores key strategies for developing web applications that can grow alongside ambitious African ventures while remaining accessible to users across varying network conditions and device capabilities.
+            </p>
+            <div>
+                <span class="tag">Web Development</span>
+                <span class="tag">Africa</span>
+                <span class="tag">Startups</span>
+            </div>
+            <br>
+            <a class="read-more" href="./article-scalable-solutions.html">Read full article →</a>
+        </article>
+
+        <article class="article-card">
+            <div class="article-meta">December 18, 2024 • 4 min read</div>
+            <h2 class="article-title">The Rise of Fintech in Emerging Markets</h2>
+            <p class="article-excerpt">
+                Financial technology is reshaping how millions access banking services. With mobile-first solutions and innovative payment systems, fintech companies are bridging the gap for the unbanked population and creating new opportunities for economic participation.
+            </p>
+            <div>
+                <span class="tag">Fintech</span>
+                <span class="tag">Innovation</span>
+            </div>
+            <br>
+            <a href="#" class="read-more">Read full article →</a>
+        </article>
+
+        <article class="article-card">
+            <div class="article-meta">December 10, 2024 • 3 min read</div>
+            <h2 class="article-title">Why Progressive Web Apps Matter for Africa</h2>
+            <p class="article-excerpt">
+                Progressive Web Apps (PWAs) offer a compelling solution for reaching users in regions with limited connectivity and storage constraints. Learn why this technology approach is particularly relevant for serving African markets.
+            </p>
+            <div>
+                <span class="tag">PWA</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">Technology</span>
+            </div>
+            <br>
+            <a href="#" class="read-more">Read full article →</a>
+        </article>
+    </div>
+
+    <br><br>
+
+    <section>
+        <footer>
+            <p>DONALD OBISANYA <span class="span">©</span>
+                <span id="launchYear">2024</span>
+                -
+                <span id="currentYear">2025</span>
+            </p>
+        </footer>
+        <p><a class="social" href="https://wa.me/2347010687110">Whatsapp</a></p>
+    </section>
+
+    <script>
+        var currentYear = document.getElementById('currentYear');
+        currentYear.innerHTML = new Date().getFullYear();
+        var startDate = new Date('20 Dec 2024');
+        var launch = new Date();
+        launch.setTime(startDate.getTime());
+        var launchYear = document.getElementById('launchYear');
+        launchYear.innerHTML = launch.getFullYear();
+    </script>
+
+
+</body></html>

@@ -1,0 +1,175 @@
+body{
+    background-color:rgb(1, 15, 76);
+ text-align: center;
+ color: #ffffff;
+}
+
+.header{
+    color: #ffffff;
+    display: block;
+    font-size: 2.6em;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    text-align: center;
+}
+.hint  { color: rgb(235, 140, 0);
+font-size: 2.6rem;
+display: block;
+padding-top: 0px;
+margin-top: 0px;
+}
+
+p{
+    display: block;
+   
+    font-size: 1.4rem;
+}
+
+.container{
+    background-color: cyan;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 20em;
+    color: black;
+    animation-name: ddd;
+    animation-duration: 20s;
+
+}
+@keyframes ddd{
+    0%{
+        background-color: yellow;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: darkturquoise;
+
+    }
+    75%{
+        background-color: purple;
+    }
+    100%{
+        background-color: magenta;
+    }
+    
+}
+.text{
+    padding-top: 80px;
+    color: black;
+}
+.line{
+    background-color:rgb(235, 140, 0);
+    height: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 2px;
+}
+.text2{
+    margin-top: 40px;
+}
+.container2{
+    background-color: cyan;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 20em;
+    color: black;
+    margin-top: 40px;
+    animation-name: ddd;
+    animation-duration: 20s;
+
+}
+.before{
+    color: rgb(235, 140, 0);
+     margin-left: 280px;
+     
+}
+.span{
+    color: rgb(235, 140, 0);
+}
+.social{
+    color: rgb(235, 140, 0);
+}
+.about{
+    margin-left: 850px;
+    margin-top: -60px;
+}
+
+/* Navigation Styles */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background: rgba(235, 140, 0, 0.3);
+    color: rgb(235, 140, 0);
+}
+
+.nav-link.active {
+    background: rgb(235, 140, 0);
+    color: #000;
+    font-weight: bold;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+    .header { font-size: 2.2em; }
+    .hint { font-size: 2.2rem; }
+    p { font-size: 1.2rem; }
+    .container, .container2 {
+        margin-left: 30px;
+        margin-right: 30px;
+        height: auto;
+        padding: 30px;
+    }
+    .line { margin-left: 30px; margin-right: 30px; }
+    .before { margin-left: 0; text-align: left; margin-top: 0; }
+    .about { margin-left: 0; margin-top: 0; float: right; }
+    .nav { padding: 16px; gap: 16px; }
+    .nav-link { font-size: 0.95rem; padding: 6px 12px; }
+}
+
+@media (max-width: 768px) {
+    .header { font-size: 1.8em; }
+    .hint { font-size: 2rem; }
+    p { font-size: 1.1rem; }
+    .container, .container2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    .text { padding-top: 40px; }
+    .before { margin-left: 0; text-align: center; display: block; }
+    .about { display: block; margin: 10px auto 0; float: none; text-align: center; }
+    .line { margin-left: 20px; margin-right: 20px; }
+}
+
+@media (max-width: 480px) {
+    body { font-size: 16px; }
+    .header { font-size: 1.4em; padding-top: 0.6rem; }
+    .hint { font-size: 1.6rem; }
+    p { font-size: 1rem; }
+    .container, .container2 {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 12px;
+    }
+    .text { padding-top: 20px; }
+    .nav { flex-direction: column; gap: 8px; padding: 12px; }
+    .nav-link { width: 100%; text-align: center; border-radius: 8px; }
+}
